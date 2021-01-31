@@ -16,6 +16,10 @@ Táblázat
 
 Footer
 
+Form legyen az alján is, mint odafent
+
+Elérhetőségek oldal
+
 Képek elhelyezése
 (ottom: 0;
 left: 50%;
