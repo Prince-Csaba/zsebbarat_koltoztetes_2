@@ -1,3 +1,4 @@
+Form árajánlat kérés
 Árajánlat kérés:
 
 - megyék
@@ -10,15 +11,15 @@ Menü elemek megfelelően nézzenek ki hamburgerben
 
 Cikkek
 
-Képek
+Képek (fotók)
 
 Táblázat
+  -aloldal?
 
 Footer
 
 Form legyen az alján is, mint odafent
-
-Form árajánlat kérés
+  -ugyanaz a kód, 2x, vagy sima parallax, benne egy árajánlatot kérek link ami felküld!
 
 Elérhetőségek oldal
 

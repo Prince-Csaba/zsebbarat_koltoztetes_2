@@ -1,6 +1,6 @@
 function load() {
   function thx() {
-    document.querySelector("honnan").innerHTML = "<h1>Köszönöm</h1>";
+    document.querySelector("#honnan").innerHTML = "<h1>Köszönöm</h1>";
   }
 
   console.log("Futok!");
