@@ -17,12 +17,12 @@ h6 {
   font-weight: 700
 }
 
-a {
+#cta a {
   text-decoration: none;
   color: #fff;
 }
 
-a:hover {
+#cta a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -114,7 +114,8 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url(../img/bg-img.jpg) no-repeat center center;
+  background: url(../img/bg-img.jpg) no-repeat;
+  background-position: top;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 7rem;
@@ -134,4 +135,12 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem
+}
+
+ul li a {
+  color: #28a745;
+}
+
+ul li a:hover {
+  color: #28a745;
 }
