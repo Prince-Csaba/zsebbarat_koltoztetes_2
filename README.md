@@ -1,3 +1,9 @@
+Honnan - irányítószám, utca
+Hova - irányítószám, utca
+Van-e valami ami 100 kiló felett van, ha igen, akkor kb hány kg?
+Bútorok, gépek száma?
+Kartonok száma?
+
 # [Start Bootstrap - Landing Page](https://startbootstrap.com/theme/landing-page/)
 
 [Landing Page](https://startbootstrap.com/theme/landing-page/) is a multipurpose landing page template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
