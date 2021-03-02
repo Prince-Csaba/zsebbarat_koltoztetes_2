@@ -104,6 +104,7 @@ header.masthead h1 {
 
 .collapse {
   margin: 50px auto;
+  max-width: 80%;
 }
 
 .modal li {
