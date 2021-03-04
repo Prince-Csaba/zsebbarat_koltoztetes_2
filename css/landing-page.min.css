@@ -102,7 +102,7 @@ header.masthead h1 {
   font-size: 5rem
 }
 
-.collapse {
+#collapseExample {
   margin: 50px auto;
   max-width: 80%;
 }
@@ -160,7 +160,7 @@ ul li a:hover {
   color: #28a745;
 }
 
-#phoneNum {
-  position: sticky;
-  top: 5px;
-}
+/* #phoneNum {
+  position: sticky !important;
+  top: 50px;
+} */

@@ -2,7 +2,8 @@ Honnan - irányítószám, utca
 Hova - irányítószám, utca
 Van-e valami ami 100 kiló felett van, ha igen, akkor kb hány kg?
 Bútorok, gépek száma?
-Kartonok száma?
+Kartonok száma, méretei??
+Emeletről emeletre
 
 # [Start Bootstrap - Landing Page](https://startbootstrap.com/theme/landing-page/)
 
