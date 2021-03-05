@@ -1,3 +1,6 @@
+Outline:none a buttonokra!!!! imputokra, azokra a mezőkre amikbe lehet írni, textarea,
+
+
 Form árajánlat kérés
 Árajánlat kérés:
 

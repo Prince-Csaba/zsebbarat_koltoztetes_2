@@ -102,14 +102,37 @@ header.masthead h1 {
   font-size: 5rem
 }
 
+.navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
 button.main,
 a.main {
   margin: 5px;
 }
 
+#mainForm {
+  color: #fff;
+  border-color: #fff;
+}
+
+#mainForm:hover {
+  border-color: #28a745;
+}
+
 #collapseExample {
   margin: 50px auto;
   max-width: 80%;
+}
+
+.col-lg-4 button,
+.col-lg-4 a {
+  margin: 5px 0;
 }
 
 .modal li {
@@ -118,6 +141,25 @@ a.main {
 
 .modalButton {
   margin-top: 10px;
+}
+
+.twoWorkers {
+  padding: 0 2.5rem;
+}
+
+.threeWorkers {
+  padding: 0 1.1rem;
+}
+
+@media (min-width: 992px) {
+
+  .twoWorkers {
+    padding: 0 1.5rem;
+  }
+
+  .threeWorkers {
+    padding: 0 0.5rem;
+  }
 }
 
 .testimonials {
@@ -139,11 +181,11 @@ a.main {
   position: relative;
   background-color: #343a40;
   background: url(../img/bg-img.jpg) no-repeat;
-  background-position: top;
+  background-position: center 230px;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 7rem;
-  padding-bottom: 7rem
+  padding-bottom: 7rem;
 }
 
 .call-to-action .overlay {

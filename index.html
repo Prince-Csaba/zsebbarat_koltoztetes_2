@@ -69,13 +69,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="navbar-brand" href="#reasons">Így dolgozunk (mi)</a>
+            <a class="navbar-brand" href="#araink">Áraink</a>
           </li>
           <li class="nav-item">
-            <a class="navbar-brand" href="#howWeWork">Csapatunk</a>
+            <a class="navbar-brand" href="#rolunk">Rólunk</a>
           </li>
           <li class="nav-item">
-            <a class="navbar-brand" href="#aboutUs">Rólunk mondták</a>
+            <a class="navbar-brand" href="#velemenyek">Visszajelzések</a>
           </li>
         </ul>
       </div>
@@ -101,6 +101,7 @@
                   type="submit"
                   class="btn btn-block btn-lg btn-success main"
                   id="mainPhone"
+                  id="mainPhone"
                   href="tel:+36208016804"
                 >
                   Azonnal tárcsázok!
@@ -109,12 +110,35 @@
               </div>
               <div class="col-xs-12 col-lg-6">
                 <button
-                  type="submit"
-                  class="btn btn-block btn-lg btn-success main"
+                  type="button"
+                  class="btn btn-block btn-lg btn-outline-success main"
                   id="mainForm"
+                  data-toggle="modal" 
+                  data-target="#formModal"
                 >
-                  Inkább e-mailben kérek árajánlat (3 perc)
+                  Inkább e-mailben kérek árajánlatot (3 perc)
               </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
               </div>
             </div>
           </div>
@@ -123,7 +147,7 @@
     </header>
 
     <!-- Icons Grid -->
-    <section class="features-icons bg-light text-center" id="reasons">
+    <section class="features-icons bg-light text-center" id="araink">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
@@ -132,7 +156,7 @@
                 <i class="fas fa-piggy-bank m-auto text-success"></i>
               </div>
               <h3>Olcsó</h3>
-              <p class="lead mb-0">Fix árakkal dolgozunk, már 4.500 ft/órától</p>
+              <p class="lead mb-0">Fix árakkal dolgozunk, már 4.500 Ft/órától</p>
               <p class="lead mb-0">Nincs emelet- és hétvégi díj</p>
               <p class="lead mb-0">Egyedi árajánlat az Önök igényei szerint</p>
             </div>
@@ -169,12 +193,12 @@
                 <i class="fas fa-truck-moving m-auto text-success"></i>
               </div>
               <h3>Tehertaxi</h3>
-              <h3>4.500Ft/óra</h3>
+              <h3>4.500 Ft/óra</h3>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
+              <div class="features-icons-icon d-flex twoWorkers">
                 <i class="fas fa-truck-moving m-auto text-success"></i>
                 <i class="fas fa-male m-auto text-success"></i>
                 <i class="fas fa-male m-auto text-success"></i>
@@ -185,14 +209,14 @@
           </div>
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
+              <div class="features-icons-icon d-flex threeWorkers">
                 <i class="fas fa-truck-moving m-auto text-success"></i>
                 <i class="fas fa-male m-auto text-success"></i>
                 <i class="fas fa-male m-auto text-success"></i>
                 <i class="fas fa-male m-auto text-success"></i>
               </div>
               <h3>Költöztetés 3 rakodóval</h3>
-              <h3>10.000Ft/óra</h3>
+              <h3>10.000 Ft/óra</h3>
             </div>
           </div>
         </div>
@@ -228,36 +252,36 @@
                   <th scope="row">Sofőr (ő is rakodik)</th>
                   <td>5.500 Ft/óra*</td>
                   <td>85 Ft/km**</td>
-                  <td>Plussz egy óra</td>
-                  <td>3.000 Ft/m3</td>
+                  <td>Plusz egy óra</td>
+                  <td>3.000 Ft/m³</td>
                 </tr>
                 <tr>
                   <th scope="row">Sofőr (ő is rakodik) +1 rakodó</th>
                   <td>7.500 Ft/óra*</td>
                   <td>95 Ft/km**</td>
-                  <td>Plussz egy óra</td>
-                  <td>3.000 Ft/m3</td>
+                  <td>Plusz egy óra</td>
+                  <td>3.000 Ft/m³</td>
                 </tr>
                 <tr>
                   <th scope="row">Sofőr (ő is rakodik) +2 rakodó</th>
                   <td>10.000 Ft/óra*</td>
                   <td>115 Ft/km**</td>
-                  <td>Plussz egy óra</td>
-                  <td>3.000 Ft/m3</td>
+                  <td>Plusz egy óra</td>
+                  <td>3.000 Ft/m³</td>
                 </tr>
                 <tr>
                   <th scope="row">Sofőr (ő is rakodik) +3 rakodó</th>
                   <td>12.500 Ft/óra*</td>
                   <td>135 Ft/km**</td>
-                  <td>Plussz egy óra</td>
-                  <td>3.000 Ft/m3</td>
+                  <td>Plusz egy óra</td>
+                  <td>3.000 Ft/m³</td>
                 </tr>
                 <tr>
                   <th scope="row">Sofőr (ő is rakodik) +4 rakodó</th>
                   <td>15.500 Ft/óra*</td>
                   <td>155 Ft/km**</td>
-                  <td>Plussz egy óra</td>
-                  <td>3.000 Ft/m3</td>
+                  <td>Plusz egy óra</td>
+                  <td>3.000 Ft/m³</td>
                 </tr>
               </tbody>
             </table>
@@ -267,15 +291,15 @@
             *az önhöz való érkezéstől az öntől való távozásig számítjuk</br>
             ** az oda- vissza útra számoljuk fel</br>
             Egyszerű példa a könnyebb megértés végett:</br>
-            Tegyük fel két személyre van szükség es a munka 2 órát vesz igénybe vagyis: (2 óra x 7.500 ft) + 7.500 ft (kiszállási díj) = 22.500 Ft</br>
-            Ha csak fél órával lépjük át az időt, akkor nem számolunk fel egy egész órát csak azt a fél órát.
+            Tegyük fel, két személyre van szükség, és a munka 2 órát vesz igénybe: (2 óra x 7.500 Ft) + 7.500 Ft (kiszállási díj) = 22.500 Ft</br>
+            A kiszállási díjon felül fél óránként történik az elszámolás.
           </p>
         </div>
       </div>
     </section>
 
     <!-- Image Showcases -->
-    <section class="showcase" id="howWeWork">
+    <section class="showcase" id="rolunk">
       <div class="container-fluid p-0">
         <div class="row no-gutters">
           <div
@@ -406,7 +430,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="testimonials text-center bg-light" id="aboutUs">
+    <section class="testimonials text-center bg-light" id="velemenyek">
       <div class="container">
         <h2 class="mb-5">Ügyfeleink mondták:</h2>
         <div class="row">
@@ -450,9 +474,8 @@
             <h2 class="mb-4">Meggyőzte a szolgáltatásunk, már csak az árainkra kíváncsi?</h2>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            
             <button id="cta" class="btn btn-block btn-lg btn-success">
-              <a href="#"> Árajánlatot kérek!</a>
+              <a href="#">Árajánlatot kérek!</a>
             </button>
           </div>
         </div>
@@ -471,15 +494,15 @@
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#reasons">Így dolgozunk</a>
+                <a href="#araink">Áraink</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#howWeWork">Rólunk</a>
+                <a href="#rolunk">Rólunk</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#aboutUs">Visszajelzések</a>
+                <a href="#velemenyek">Visszajelzések</a>
               </li>
             </ul>
             <p class="text-muted small mb-4 mb-lg-0">
