@@ -4,7 +4,10 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
  */
 body {
-  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  max-width: 1720px;
+  margin: auto;
+  background-color: #eee;
 }
 
 h1,
