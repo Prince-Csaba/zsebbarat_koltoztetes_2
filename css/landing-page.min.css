@@ -102,6 +102,11 @@ header.masthead h1 {
   font-size: 5rem
 }
 
+button.main,
+a.main {
+  margin: 5px;
+}
+
 #collapseExample {
   margin: 50px auto;
   max-width: 80%;
@@ -109,6 +114,10 @@ header.masthead h1 {
 
 .modal li {
   font-size: 1rem;
+}
+
+.modalButton {
+  margin-top: 10px;
 }
 
 .testimonials {
