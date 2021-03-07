@@ -116,7 +116,7 @@ a.main {
   margin: 5px;
 }
 
-#mainForm {
+button#mainForm {
   color: #fff;
   border-color: #fff;
 }
@@ -141,6 +141,10 @@ a.main {
 
 .modalButton {
   margin-top: 10px;
+}
+
+#formModal {
+  color: black;
 }
 
 .twoWorkers {
@@ -217,8 +221,3 @@ ul li a {
 ul li a:hover {
   color: #28a745;
 }
-
-/* #phoneNum {
-  position: sticky !important;
-  top: 50px;
-} */
