@@ -79,6 +79,11 @@ header.masthead h1 {
   .showcase .showcase-text {
     padding: 7rem
   }
+
+  button.main,
+  a.main {
+    margin: 5px;
+  }
 }
 
 .features-icons {
@@ -113,7 +118,7 @@ header.masthead h1 {
 
 button.main,
 a.main {
-  margin: 5px;
+  margin: 20px;
 }
 
 button#mainForm {
@@ -164,6 +169,7 @@ button#mainForm {
   .threeWorkers {
     padding: 0 0.5rem;
   }
+
 }
 
 .testimonials {
